@@ -1,6 +1,10 @@
+:: Show3D.bat made by Cyber Slot (@cyberslot-p90)
+:: Only works on windows 8, 10 (cmdwiz.exe, etc plugins don't work anymore in Windows 10+).
+:: YouTube: https://www.youtube.com/@cyberslot-p90
+:: Official Wesite: https://csp90.pages.dev
 @if (true == false) @end /*
 @echo off
-title CST-3DViewer (Bigger Screen, Centered Cube)
+title Show3D.bat (%0)
 color 0A
 mode 80,30
 setlocal EnableDelayedExpansion
@@ -99,3 +103,4 @@ while (true) {
 }
 
 WScript.Echo("\"cmdgfx: quit\"");
+
